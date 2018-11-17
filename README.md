@@ -34,7 +34,7 @@ http://your_ip_address
 ### Configure Nginx
 Configure Nginx to redirect for your app, based on any **domain.com**.
 
-```json
+```
 server {
     listen      80;
     listen      [::]:80;
@@ -53,5 +53,5 @@ server {
 Here you can redirect a request for your **domain.com** to a localhost port, where could be running your app.
 
 ### License
-[MIT License](./License)
+[MIT License](LICENSE)
 
